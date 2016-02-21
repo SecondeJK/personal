@@ -32,3 +32,7 @@ Run a tutorial pumping data into and out of a JSON file - get to grips with the 
 ### 6. REST Server ###
 
 Build a basic REST server to take, parse and respond to requests.
+
+### 7. Docker ###
+
+O'Reilly Media have a definitive guide to Docker, so I'll be going through the book - start to finish. 
