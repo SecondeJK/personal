@@ -29,6 +29,6 @@ I have made fairly big roads into OpenText's BIRT reporting Engine, which runs t
 
 Run a tutorial pumping data into and out of a JSON file - get to grips with the format and what it does.
 
-### 7. REST Server ###
+### 6. REST Server ###
 
-Build a basic REST server.
+Build a basic REST server to take, parse and respond to requests.
