@@ -17,6 +17,18 @@ These concepts will be proved from fresh code on a basic project hosted here.
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an application specifically to write unit tests.
 
-### 3. Revisit the basics of OOP ###
+### 3. Revisit the basics of OOP in PHP ###
 
 I STILL haven't had that magic click where I can read methods, objects and constructors like they're in English. CodeAcademy does a free course on this, I WILL master this until I can read it automatically.
+
+### 4. Interactive BIRT Objects ###
+
+I have made fairly big roads into OpenText's BIRT reporting Engine, which runs through Eclipse. These objects are saved as a sprawl of XML markup. According to one of OpenText's own Technical Officers, these objects can be imported into other applications. The BIRT engine can handle interactivity and dymanic parameters, so the aim is to get one of these into a Symfony application.
+
+### 5. JSON ###
+
+Run a tutorial pumping data into and out of a JSON file - get to grips with the format and what it does.
+
+### 7. REST Server ###
+
+Build a basic REST server.
