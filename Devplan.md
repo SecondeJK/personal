@@ -40,4 +40,12 @@ Build a basic REST server to take, parse and respond to requests.
 
 ### 7. Docker ###
 
-O'Reilly Media have a definitive guide to Docker, so I'll be going through the book - start to finish. 
+O'Reilly Media have a definitive guide to Docker, so I'll be going through the book - start to finish.
+
+### 8. PHP Mentoring ###
+
+Probably the biggest goal of the list - acquire a PHP mentor that's right for me, who I can give something back to. There is much to say about being laughed at in your own office for wanting to network. I want to competently master these concepts, and with no platform to discuss problems in day to day life, I really must turn to mentoring.
+
+### 9. Open Source Contribution ###
+
+It's a community. One sure fire way of gaining experience is getting hooked on taking other people's software apart, testing it and pushing it back to GIT. It's the kind of thing that I dreamed about when I was 10 years old.
