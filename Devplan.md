@@ -24,7 +24,7 @@ I STILL haven't had that magic click where I can read methods, objects and const
 Edit - scores of OOP concepts are starting to make sense after reading up on this before putting it into practice. The following article gives the basic outline, and it's really set me on the right track:
 http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762
 
-I've been working with so much software using these metho without understanding them it's unreal. Syntax like magic method constructors are now starting to make complete sense.
+I've been working with so much software using these methods without understanding them it's unreal. Syntax like magic method constructors are now starting to make complete sense.
 
 ### 4. Interactive BIRT Objects ###
 
@@ -44,7 +44,7 @@ O'Reilly Media have a definitive guide to Docker, so I'll be going through the b
 
 ### 8. PHP Mentoring ###
 
-Probably the biggest goal of the list - acquire a PHP mentor that's right for me, who I can give something back to. There is much to say about being laughed at in your own office for wanting to network. I want to competently master these concepts, and with no platform to discuss problems in day to day life, I really must turn to mentoring.
+Probably the biggest goal of the list - acquire a PHP mentor that's right for me, who I can give something back to. I want to competently master the concepts listed, and with no platform to discuss problems in day to day life, I really must turn to mentoring.
 
 ### 9. Open Source Contribution ###
 
