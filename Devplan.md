@@ -17,7 +17,7 @@ These concepts will be proved from fresh code on a basic project hosted here.
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
 
-### 3. Revisit the basics of OOP in PHP ###
+### 3. Revisit the basics of OOP in PHP --IN PROGRESS--
 
 I STILL haven't had that magic click where I can read methods, objects and constructors like they're in English. CodeAcademy does a free course on this, I WILL master this until I can read it automatically.
 
@@ -25,6 +25,11 @@ Edit - scores of OOP concepts are starting to make sense after reading up on thi
 http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762
 
 I've been working with so much software using these methods without understanding them it's unreal. Syntax like magic method constructors are now starting to make complete sense.
+
+TO DO FOR THIS CORE CONCEPT:
+1. Finish CodeAcademy PHP in it's entirity
+2. Read and perform "PHP Master - Write Cutting Edge Code" by Mitchell, Turland & Shafik.
+3. Write code with full comment markup to show OOP in practise and dump it into the 'OOP' folder of this repository.
 
 ### 4. Interactive BIRT Objects ###
 
