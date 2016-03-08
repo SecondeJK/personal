@@ -1,6 +1,6 @@
 # PERSONAL DEVELOPMENT GOALS
 
-### 1. Competence of Symfony ###
+### 1. Competence of Symfony --IN PROGRESS-- ###
 
 Changing from traditional "spaghetti" applications written in PHP to proper frameworks using advanced tools has been a major step. Every new developer for in this discipline must adopt a starting language and subsequent framework. My language choice was PHP. Symfony is my preferred framework. There is no concrete reason for this, other than quite a few networking discussions with other developers about the learning curve of Zend Framework being sharper. It is possible I may learn Laravel in time, but for me, Symfony is widely used, I've had training from SensioLabs and am comfortable it's taking me forward.
 
@@ -12,6 +12,9 @@ Concepts of Symfony
 - Understanding of multiple controllers and multiple routes in YAML markup
 
 These concepts will be proved from fresh code on a basic project hosted here.
+
+08/03/2016:
+Sandbox Symfony is installed and uploaded to GIT. Revisiting training from Inviqua to go through the Symfony getting stated guide.
 
 ### 2. PHP Unit ###
 
@@ -26,6 +29,7 @@ http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762
 
 I've been working with so much software using these methods without understanding them it's unreal. Syntax like magic method constructors are now starting to make complete sense.
 
+08/03/2016:
 TO DO FOR THIS CORE CONCEPT:
 1. Finish CodeAcademy PHP in it's entirity
 2. Read and perform "PHP Master - Write Cutting Edge Code" by Mitchell, Turland & Shafik.
