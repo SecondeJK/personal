@@ -34,6 +34,9 @@ TO DO FOR THIS CORE CONCEPT:
 1. Finish CodeAcademy PHP in it's entirity
 2. Read and perform "PHP Master - Write Cutting Edge Code" by Mitchell, Turland & Shafik.
 3. Write code with full comment markup to show OOP in practise and dump it into the 'OOP' folder of this repository.
+4. 
+16/03/2016:
+Almost finished CodeAcademy. About to write OOP document which will be written up and coded with examples of OOP through classes, class extensions, class constructors and constants.
 
 ### 4. Interactive BIRT Objects ###
 
