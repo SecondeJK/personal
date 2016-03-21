@@ -20,7 +20,7 @@ Sandbox Symfony is installed and uploaded to GIT. Revisiting training from Inviq
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
 
-### 3. Revisit the basics of OOP in PHP --IN PROGRESS--
+### 3. Revisit the basics of OOP in PHP --COMPLETED--
 
 I STILL haven't had that magic click where I can read methods, objects and constructors like they're in English. CodeAcademy does a free course on this, I WILL master this until I can read it automatically.
 
