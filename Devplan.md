@@ -16,6 +16,9 @@ These concepts will be proved from fresh code on a basic project hosted here.
 08/03/2016:
 Sandbox Symfony is installed and uploaded to GIT. Revisiting training from Inviqua to go through the Symfony getting stated guide.
 
+20/04/2016:
+Work started to create a form to take HTTP POST data and turn it into an object.
+
 ### 2. PHP Unit ###
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
