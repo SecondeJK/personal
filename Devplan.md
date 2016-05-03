@@ -65,6 +65,8 @@ Probably the biggest goal of the list - acquire a PHP mentor that's right for me
 
 It's a community. One sure fire way of gaining experience is getting hooked on taking other people's software apart, testing it and pushing it back to GIT. It's the kind of thing that I dreamed about when I was 10 years old.
 
+Update 01/05/2016: Pushed tiny change to a repo, my first. Got merged. On the right track!
+
 ### 10. Python Mastering ###
 
 I have a Raspberry Pi. I have a book on Python. It's time to get coding with a secondry language, and I've chosen Python over Java, Node.JS and any other languages.
