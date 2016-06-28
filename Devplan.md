@@ -19,6 +19,9 @@ Sandbox Symfony is installed and uploaded to GIT. Revisiting training from Inviq
 20/04/2016:
 Work started to create a form to take HTTP POST data and turn it into an object.
 
+28/06/2016:
+Extreme Symfony learning on it's way, as the work app has a long term goal in migrating to Symfony
+
 ### 2. PHP Unit ###
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
@@ -69,7 +72,7 @@ Probably the biggest goal of the list - acquire a PHP mentor that's right for me
 
 ### 9. Open Source Contribution ###
 
-It's a community. One sure fire way of gaining experience is getting hooked on taking other people's software apart, testing it and pushing it back to GIT. It's the kind of thing that I dreamed about when I was 10 years old.
+It's a community. One sure fire way of gaining experience is getting hooked on taking other people's software apart, testing it and pushing it back to git. It's the kind of thing that I dreamed about when I was 10 years old.
 
 Update 01/05/2016: Pushed tiny change to a repo, my first. Got merged. On the right track!
 
