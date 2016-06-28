@@ -41,17 +41,23 @@ TO DO FOR THIS CORE CONCEPT:
 16/03/2016:
 Almost finished CodeAcademy. About to write OOP document which will be written up and coded with examples of OOP through classes, class extensions, class constructors and constants.
 
-### 4. Interactive BIRT Objects ###
+### 4. Interactive BIRT Objects ### --SCRAPPED DUE TO EMPLOYMENT--
 
 I have made fairly big roads into OpenText's BIRT reporting Engine, which runs through Eclipse. These objects are saved as a sprawl of XML markup. According to one of OpenText's own Technical Officers, these objects can be imported into other applications. The BIRT engine can handle interactivity and dymanic parameters, so the aim is to get one of these into a Symfony application.
 
-### 5. JSON ###
+28/06/2016: My employment means there is no need for this, which is a little niche. Day to day dashboards and stats will be compiled with processed GET requests spitting out JSON for rendering in Google charts.
+
+### 5. JSON ### --IN PROGRESS--
 
 Run a tutorial pumping data into and out of a JSON file - get to grips with the format and what it does.
 
-### 6. REST Server ###
+28/06/2016: JSON is being used in almost all the RESTful usage at work.
+
+### 6. REST Server ### --IN PROGRESS--
 
 Build a basic REST server to take, parse and respond to requests.
+
+28/06/2016: REST services are used all over the place at work.
 
 ### 7. Docker ###
 
