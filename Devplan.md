@@ -66,7 +66,7 @@ Build a basic REST server to take, parse and respond to requests.
 
 O'Reilly Media have a definitive guide to Docker, so I'll be going through the book - start to finish.
 
-### 8. PHP Mentoring ###
+### 8. PHP Mentoring ### --SCRAPPED DUE TO EMPLOYMENT: LEAD ENGINEER MORE THAN SUFFICIENT--
 
 Probably the biggest goal of the list - acquire a PHP mentor that's right for me, who I can give something back to. I want to competently master the concepts listed, and with no platform to discuss problems in day to day life, I really must turn to mentoring.
 
@@ -76,6 +76,13 @@ It's a community. One sure fire way of gaining experience is getting hooked on t
 
 Update 01/05/2016: Pushed tiny change to a repo, my first. Got merged. On the right track!
 
-### 10. Python Mastering ###
+### 10. Python Mastering ### --SCRAPPED AS WORK IS PULLING IN TONS OF NEW LANGUAGE--
 
 I have a Raspberry Pi. I have a book on Python. It's time to get coding with a secondry language, and I've chosen Python over Java, Node.JS and any other languages.
+
+### 11. NEW: Design Patterns ###
+
+Armed with a book now showing design patterns, I need to work my way through key concepts in patterns which will make learning new languages far easier. So, for the time being, these are:
+
+1. Build a Strategic app that takes the core concepts of encapsulation and interfacing
+2. Build an Observer app that builds in a pre-PHP-API event/listener model
