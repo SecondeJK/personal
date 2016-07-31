@@ -86,3 +86,5 @@ Armed with a book now showing design patterns, I need to work my way through key
 
 1. Build a Strategic app that takes the core concepts of encapsulation and interfacing
 2. Build an Observer app that builds in a pre-PHP-API event/listener model
+3. Build a Factory Application
+4. Build an Abstract Factory Application
