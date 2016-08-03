@@ -22,9 +22,14 @@ Work started to create a form to take HTTP POST data and turn it into an object.
 28/06/2016:
 Extreme Symfony learning on it's way, as the work app has a long term goal in migrating to Symfony
 
+03/08/2016:
+About to start building a Symfony application that uses Doctrine to CRUD something as per work engineer guidance.
+
 ### 2. PHP Unit ###
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
+
+03/08/2016 - Test Driven Development is on the agenda of work talks, and for major developments is due to be adopted as the primary coding style.
 
 ### 3. Revisit the basics of OOP in PHP --COMPLETED--
 
@@ -88,3 +93,4 @@ Armed with a book now showing design patterns, I need to work my way through key
 2. Build an Observer app that builds in a pre-PHP-API event/listener model
 3. Build a Factory Application
 4. Build an Abstract Factory Application
+5. Build a Command Application
