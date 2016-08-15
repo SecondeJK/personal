@@ -1,5 +1,7 @@
 <?php
 
+include('monitorTools.php');
+
 class rateFinder
 {
   private $curFrom;
