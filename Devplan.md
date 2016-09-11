@@ -25,6 +25,9 @@ Extreme Symfony learning on it's way, as the work app has a long term goal in mi
 03/08/2016:
 About to start building a Symfony application that uses Doctrine to CRUD something as per work engineer guidance.
 
+11/09/2016:
+Finished Doctrine. ORM that really does look lovely!
+
 ### 2. PHP Unit ###
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
@@ -55,17 +58,23 @@ I have made fairly big roads into OpenText's BIRT reporting Engine, which runs t
 
 28/06/2016: My employment means there is no need for this, which is a little niche. Day to day dashboards and stats will be compiled with processed GET requests spitting out JSON for rendering in Google charts.
 
-### 5. JSON ### --IN PROGRESS--
+### 5. JSON ### --COMPLETED--
 
 Run a tutorial pumping data into and out of a JSON file - get to grips with the format and what it does.
 
+11/09/2016:
+There was no mystery to JSON. PHP encodes and decodes in JSON to make multidimensional arrays pretty simply. Just another array style file format/
+
 28/06/2016: JSON is being used in almost all the RESTful usage at work.
 
-### 6. REST Server ### --IN PROGRESS--
+### 6. REST Server ### --SCRAPPED, NO POINT--
 
 Build a basic REST server to take, parse and respond to requests.
 
 28/06/2016: REST services are used all over the place at work.
+
+11/09/2016:
+Building a REST server with Symfony is probably the most basic thing it could do. It's hardly worth actually writing one.
 
 ### 7. Docker ###
 
