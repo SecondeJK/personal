@@ -100,6 +100,9 @@ Update 01/05/2016: Pushed tiny change to a repo, my first. Got merged. On the ri
 
 I have a Raspberry Pi. I have a book on Python. It's time to get coding with a secondry language, and I've chosen Python over Java, Node.JS and any other languages.
 
+15/12/2016:
+As discussed with the Engineer, this is actually a very pointless goal. Considering PHP is going in the right direction with 7 and is developing at a good speed, there is no point sidestepping to a different language. The only secondry language I am going to need will be JavaScript, and that will be for visualisations in data. If one tool is sufficient, become a master of it rather than spread language knowledge.
+
 ### 11. NEW: Design Patterns ###
 
 Armed with a book now showing design patterns, I need to work my way through key concepts in patterns which will make learning new languages far easier. So, for the time being, these are:
