@@ -28,11 +28,14 @@ About to start building a Symfony application that uses Doctrine to CRUD somethi
 11/09/2016:
 Finished Doctrine. ORM that really does look lovely!
 
-### 2. PHP Unit ###
+### 2. PHP Unit ### --IN PROGRESS--
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
 
 03/08/2016 - Test Driven Development is on the agenda of work talks, and for major developments is due to be adopted as the primary coding style.
+
+15/12/2016:
+Started using PHPUnit, hopefully will be given a task soon that will require TDD. The implimentation of it isn't actually that complex.
 
 ### 3. Revisit the basics of OOP in PHP --COMPLETED--
 
@@ -79,6 +82,9 @@ Building a REST server with Symfony is probably the most basic thing it could do
 ### 7. Docker ###
 
 O'Reilly Media have a definitive guide to Docker, so I'll be going through the book - start to finish.
+
+15/12/2016:
+DevOps Engineer is slowly working on moving to Docker. It will become a requirement to line up environments eventually.
 
 ### 8. PHP Mentoring ### --SCRAPPED DUE TO EMPLOYMENT: LEAD ENGINEER MORE THAN SUFFICIENT--
 
