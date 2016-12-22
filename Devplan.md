@@ -37,6 +37,9 @@ I tried Netbeans integration with this and it was very confusing, and contradict
 15/12/2016:
 Started using PHPUnit, hopefully will be given a task soon that will require TDD. The implimentation of it isn't actually that complex.
 
+20/12/2016:
+Started writing PHPUnit tests. API Book has also shown me Behat syntax for BDD or TDD with more readabe code. These have been pushed into the codebase and are active.
+
 ### 3. Revisit the basics of OOP in PHP --COMPLETED--
 
 I STILL haven't had that magic click where I can read methods, objects and constructors like they're in English. CodeAcademy does a free course on this, I WILL master this until I can read it automatically.
@@ -96,12 +99,15 @@ It's a community. One sure fire way of gaining experience is getting hooked on t
 
 Update 01/05/2016: Pushed tiny change to a repo, my first. Got merged. On the right track!
 
-### 10. Python Mastering ### --SCRAPPED AS WORK IS PULLING IN TONS OF NEW LANGUAGE--
+### 10. Python Mastering ### --IN PROGRESS--
 
 I have a Raspberry Pi. I have a book on Python. It's time to get coding with a secondry language, and I've chosen Python over Java, Node.JS and any other languages.
 
 15/12/2016:
 As discussed with the Engineer, this is actually a very pointless goal. Considering PHP is going in the right direction with 7 and is developing at a good speed, there is no point sidestepping to a different language. The only secondry language I am going to need will be JavaScript, and that will be for visualisations in data. If one tool is sufficient, become a master of it rather than spread language knowledge.
+
+20/12/2016:
+I have changed my mind about this. As my girlfriend learns Python for her work, I'm going to learn it with her. I have a server side language to master (i.e PHP), a front end tool in Javascript to learn the basics (mainly for dashboard widgets to be honest) and now my genersal purpose will be Python.
 
 ### 11. NEW: Design Patterns ###
 
