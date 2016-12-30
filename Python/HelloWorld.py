@@ -22,4 +22,4 @@ print('And here is the year: ' + str(now.year))
 print('And here is the month: ' + str(now.month))
 print('And here is the day: ' + str(now.day))
 
-print ('%s/%s/%s' % (now.day, now.month, now.year))
+print '%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
