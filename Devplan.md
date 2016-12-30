@@ -28,6 +28,10 @@ About to start building a Symfony application that uses Doctrine to CRUD somethi
 11/09/2016:
 Finished Doctrine. ORM that really does look lovely!
 
+30/12/2016:
+Switched to Service-Oriented Architecture.
+Need to start looking at the form builder.
+
 ### 2. PHP Unit ### --IN PROGRESS--
 
 I tried Netbeans integration with this and it was very confusing, and contradicted PHPunit's own Implimentation guidelines. PHPUnit out the box is seems the best route. I can't get it to work, I need an create an application specifically to write unit tests.
@@ -42,36 +46,15 @@ Started writing PHPUnit tests. API Book has also shown me Behat syntax for BDD o
 
 ### 3. Revisit the basics of OOP in PHP --COMPLETED--
 
-I STILL haven't had that magic click where I can read methods, objects and constructors like they're in English. CodeAcademy does a free course on this, I WILL master this until I can read it automatically.
-
-Edit - scores of OOP concepts are starting to make sense after reading up on this before putting it into practice. The following article gives the basic outline, and it's really set me on the right track:
-http://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762
-
-I've been working with so much software using these methods without understanding them it's unreal. Syntax like magic method constructors are now starting to make complete sense.
-
-08/03/2016:
-TO DO FOR THIS CORE CONCEPT:
-1. Finish CodeAcademy PHP in it's entirity
-2. Read and perform "PHP Master - Write Cutting Edge Code" by Mitchell, Turland & Shafik.
-3. Write code with full comment markup to show OOP in practise and dump it into the 'OOP' folder of this repository.
-4. 
-16/03/2016:
-Almost finished CodeAcademy. About to write OOP document which will be written up and coded with examples of OOP through classes, class extensions, class constructors and constants.
+Might as well include that this was completed some time ago, and now this section is covered by ongoing progress in leaning Python's Object Orientation techniques/methods/constructors.
 
 ### 4. Interactive BIRT Objects ### --SCRAPPED DUE TO EMPLOYMENT--
 
-I have made fairly big roads into OpenText's BIRT reporting Engine, which runs through Eclipse. These objects are saved as a sprawl of XML markup. According to one of OpenText's own Technical Officers, these objects can be imported into other applications. The BIRT engine can handle interactivity and dymanic parameters, so the aim is to get one of these into a Symfony application.
-
-28/06/2016: My employment means there is no need for this, which is a little niche. Day to day dashboards and stats will be compiled with processed GET requests spitting out JSON for rendering in Google charts.
+Binned. The reality of this with interactive dashboards is that BIRT is in the bin and Javascript/JS libraries such as floatr & d3 will be what I use.
 
 ### 5. JSON ### --COMPLETED--
 
-Run a tutorial pumping data into and out of a JSON file - get to grips with the format and what it does.
-
-11/09/2016:
-There was no mystery to JSON. PHP encodes and decodes in JSON to make multidimensional arrays pretty simply. Just another array style file format/
-
-28/06/2016: JSON is being used in almost all the RESTful usage at work.
+This was doing all manner of things with PHP encoding and decoding JSON. This section is partially active as I've yet to do any JSON methods in Python.
 
 ### 6. REST Server ### --SCRAPPED, NO POINT--
 
@@ -107,9 +90,9 @@ I have a Raspberry Pi. I have a book on Python. It's time to get coding with a s
 As discussed with the Engineer, this is actually a very pointless goal. Considering PHP is going in the right direction with 7 and is developing at a good speed, there is no point sidestepping to a different language. The only secondry language I am going to need will be JavaScript, and that will be for visualisations in data. If one tool is sufficient, become a master of it rather than spread language knowledge.
 
 20/12/2016:
-I have changed my mind about this. As my girlfriend learns Python for her work, I'm going to learn it with her. I have a server side language to master (i.e PHP), a front end tool in Javascript to learn the basics (mainly for dashboard widgets to be honest) and now my genersal purpose will be Python.
+I have changed my mind about this. As my girlfriend learns Python for her work, I'm going to learn it with her. I have a server side language to master (i.e PHP), a front end tool in Javascript to learn the basics (mainly for dashboard widgets to be honest) and now my general purpose will be Python.
 
-### 11. NEW: Design Patterns ###
+### 11. Design Patterns ###
 
 Armed with a book now showing design patterns, I need to work my way through key concepts in patterns which will make learning new languages far easier. So, for the time being, these are:
 
