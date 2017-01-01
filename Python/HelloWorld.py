@@ -37,3 +37,9 @@ if len(original) > 0 and original.isalpha():
     print(new_word)
 else:
     print('empty')
+
+#Basic built in numeric functions
+maximum = max(4,5,7,8,3,8)
+print(maximum)
+minimum = min(45,36,77,22,11,5)
+print(minimum) 
