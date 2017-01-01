@@ -27,6 +27,7 @@ print('%s/%s/%s %s:%s:%s' % (now.month, now.day, now.year, now.hour, now.minute,
 # Some string wordplay from Code Academy
 pyg = 'ay'
 
+'''
 original = input('Enter a word:')
 word = original.lower()
 first = word[0]
@@ -37,9 +38,17 @@ if len(original) > 0 and original.isalpha():
     print(new_word)
 else:
     print('empty')
+'''
 
 #Basic built in numeric functions
 maximum = max(4,5,7,8,3,8)
 print(maximum)
 minimum = min(45,36,77,22,11,5)
-print(minimum) 
+print(minimum)
+#Get the absolute value of something
+print(abs(-45))
+
+print('Really, really handy for debugging: print type of object.')
+print(type(35))
+print(type(45.34))
+print(type('dave'))
