@@ -16,3 +16,15 @@ print('Insert new city at index 3, here you go: ' + str(myArray))
 
 for city in myArray:
     print("In this for loop, the city is %s" % city)
+
+#That's nice, time to move on to dictionaries
+myDictionary = {'Nottingham' : 'Lace', 'Sheffield' : 'Steel', 'Stoke' : 'Pottery'}
+
+print('I created a dictionary of key value pairs. The main industry of Nottingham is %s' % myDictionary['Nottingham'])
+
+multidimensional = {
+    'Nottingham' : ['Lace,Beer,Iron'],
+    'Birmingham' : ['Jewellry,Leather,Pork']
+}
+
+print(multidimensional['Nottingham'])
