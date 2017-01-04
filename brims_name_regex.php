@@ -10,7 +10,7 @@ $inputs = [
   'Mr. Jim Seconde'
 ];
 
-$pattern = "^(Mr|Mrs|Dr|Ms|Miss|Prof|Rev)?(\.)?\s*(\S+)\s+(\S+)$@";
+$pattern = "/^(Mr|Mrs|Dr|Ms|Miss|Prof|Rev)?(\.)?\s*(\S+)\s+(\S+)$/";
 
 $i = 1;
 
