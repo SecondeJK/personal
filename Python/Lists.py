@@ -27,4 +27,6 @@ multidimensional = {
     'Birmingham' : ['Jewellry,Leather,Pork']
 }
 
-print(multidimensional['Nottingham'])
+#Print a list item from a dictionary
+#Todo this doesn't work. Find out how to rotate though lists in dictionaries
+print(multidimensional['Nottingham'][0])
