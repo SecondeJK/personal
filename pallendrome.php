@@ -2,35 +2,41 @@
 
 class pallendrome {
 
-  var $input;
-  var $caseSensitive;
-  var $reversedString;
-
-  public static function checkString($input, $caseSensitive)
+  public static function checkString($input, $caseSensitive = false)
   {
-    $this->input = $input;
-    $this->caseSensitive = $caseSensitive;
-    $this->inputValidation();
+    self::inputValidation($input, $caseSensitive);
+    $input = self::caseTransformer($input, $caseSensitive);
+    $reversed = self::reverseString($input, $caseSensitive);
+
+    if ($input === $reversed) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
-  private function inputValidation()
+  private static function inputValidation($input, $caseSensitive)
   {
     if (!is_string($input)) {
-      throw new Exception('Error: You did not provide me with a string!')
+      throw new Exception('Error: You did not provide me with a string!');
     } elseif (!is_bool($caseSensitive)) {
-      throw new Exception('Error: You did not provide me with a valid case switch!')
+      throw new Exception('Error: You did not provide me with a valid case switch!');
     }
   }
 
-  private function reverseString()
+  private static function reverseString($input, $caseSensitive)
   {
-    if ($this->caseSensitive == false) {
-      $this->reversedString = strrev(strtolower($this->input)
-    } else {
-      $this->reversedString = strrev($this->input)
-    }
+      return strrev($input);
   }
 
+  private static function caseTransformer($input, $caseSensitive)
+  {
+    if ($caseSensitive == false) {
+      return strtolower($input);
+    } else {
+      return $input;
+    }
+  }
 }
-//strrev
-//is_string
+
+var_dump(pallendrome::checkString('Anna', false));
