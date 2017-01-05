@@ -38,5 +38,3 @@ class pallendrome {
     }
   }
 }
-
-var_dump(pallendrome::checkString('Anna', false));
