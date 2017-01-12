@@ -1,0 +1,95 @@
+<?php
+
+class Tools
+{
+  public static function getGUID() {
+    if (function_exists('com_create_guid')) {
+        return com_create_guid();
+    } else {
+        mt_srand((double)microtime()*10000);//optional for php 4.2.0 and up.
+        $charid = strtoupper(md5(uniqid(rand(), true)));
+        $hyphen = chr(45);// "-"
+        $uuid = chr(123)// "{"
+            .substr($charid, 0, 8).$hyphen
+            .substr($charid, 8, 4).$hyphen
+            .substr($charid,12, 4).$hyphen
+            .substr($charid,16, 4).$hyphen
+            .substr($charid,20,12)
+            .chr(125);// "}"
+        return $uuid;
+    }
+  }
+}
+// Reflection is the ability for a language to inspect itself
+// Here is an example class
+
+class MyClass
+{
+  private $var = "This is my class";
+  public $var2 = "This one is a public var";
+
+  public function talk()
+  {
+    echo $this->var;
+  }
+
+  public function hush()
+  {
+    echo "*shhhhhh*";
+  }
+}
+
+$object = new MyClass;
+$object->talk();
+echo PHP_EOL;
+
+echo 'OK, I have an object called object. Now I call 3 basic reflector methods on it. Firstly, get_class takes an object:' . PHP_EOL;
+echo get_class($object);
+
+echo PHP_EOL;
+echo 'Here are the methods using get_class_methods:' . PHP_EOL;
+print_r(get_class_methods($object));
+
+echo 'Here are the stored properties using get_class_vars, which requires a string:' . PHP_EOL;
+echo PHP_EOL;
+print_r(get_class_vars(get_class($object)));
+
+echo 'Here is a similar method using get_object_vars, which requires an object:' . PHP_EOL;
+echo PHP_EOL;
+print_r(get_object_vars($object));
+
+echo PHP_EOL;
+echo 'Take note! It doesn\'t print the private var I have in that class';
+echo PHP_EOL;
+
+class ReflectionGetterSetter
+{
+  protected $guid;
+  protected $name;
+
+  protected function getGuid()
+  {
+    return $this->guid;
+  }
+
+  public function setGuid($newGuid)
+  {
+    $this->guid = $newGuid;
+    return $this;
+  }
+
+  public function __set($v1, $v2)
+  {
+    echo "So, to debug: you tried to set $v1 to $v2. This is the magic __set method";
+  }
+}
+
+// OK, it's time to look at messing with magic methods. This is used in CampaignAmps codebase
+$jimObject = new ReflectionGetterSetter;
+$generateGuid = Tools::getGUID();
+//$jimObject->setGuid($generateGuid);
+// Should throw an exception, it's protected
+// Which it does. But now, let's use the magic method __set to try again
+
+//  In other languages this is known as overloading
+$jimObject->guid = $generateGuid;
