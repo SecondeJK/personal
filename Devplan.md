@@ -2,7 +2,7 @@
 
 Disclaimer: these have changed dramatically since my move from London to Birmingham. As a result, a lot of updating needed to be done.
 
-### 1. Symfony --IN PROGRESS-- ###
+### 1. Symfony ###
 
 Still outstanding:
 
@@ -18,11 +18,12 @@ Still outstanding:
 
 1. One page, front end site developed using Angular.
 
-### 4. Javascript: Test Application (Back) ###
+### 4. Python ###
 
-1. Build a node.js basic REST using Express
+This keeps on changing. I have ditched node.js AGAIN as talking to Facebook Devops engineers made me realise this is just so much hype for something that is not designed as a backend language. So, this target changes to:
 
-2. Build something that uses WebSockets.
+1. Build a basic Django app
+2. Make sure it uses Websockets
 
 ### 5. PHPStorm ###
 
@@ -30,4 +31,4 @@ This application is extremely difficult to get to grips with the vast amount of 
 
 ### 6. Laravel ###
 
-Despite much distaste for this framework, I need to use one outside of Symfony. Curiously, recent statistics have pointed to Laravel really going mad on uptake. This is puzzling considering it's strange implementation, but I shall build out an example app anyway to see how someone else does it.
+Curiously, recent statistics have pointed to Laravel really going mad on uptake. This is puzzling considering it's strange implementation, but I shall build out an example app anyway to see how someone else does it.
